@@ -3,19 +3,13 @@ public class Aufgaben150920211 {
     static Scanner s;
     public static void main (String[] args){
         s = new Scanner(System.in);
-        System.out.print("Geben sie eine Zahl ein :");
-        int input = s.nextInt();
-        int outZahl = 0;
-        String output = "Berechnung der Summe 0";
-        int i = 1;
-        for(;i<input; i++){
-            output=output+"+"+i;
-            outZahl += i;
+        System.out.print("Berechnung der Summe 1+2+3+4+... bis zum Grenzwert\nGrenzwert:");
+        int input, zaeler = 0, summe=0;
+        input = s.nextInt();
+        while(input>summe){
+            zaeler++;
+            summe+=zaeler;
         }
-        output += "+"+i;
-        output+=" bis zum Grenzwert";
-        System.out.println(output);
-        System.out.println("Grenzwert: " + i);
-        System.out.println("Nach "+ input + " Gliedern ist " + i + " erreicht. Die Summe ist " + outZahl + ".");
+        System.out.println("Nach " + zaeler + " Gliedern ist " + input + " erreicht. Die Summe ist " + summe + ".");
     }
 }
