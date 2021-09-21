@@ -4,9 +4,11 @@ public class Aufgaben150920214 {
         Scanner s = new Scanner(System.in);
         System.out.print("Berechnung der Summe der Reihe:\n1*1+2*2+3*3+..+n*n\nGeben Sie eine pos. ganze Zahl ein (n):");
         int input = s.nextInt();
+        input++;
         int gesammt = 0;
-        for (int i=0; i<input; i++){
-            gesammt+=i;
+        int i=0;
+        for (; i<input; i++){
+            gesammt+=i*i;
         }
         System.out.println("Summe ist: "+gesammt);
     }
