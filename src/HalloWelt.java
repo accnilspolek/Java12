@@ -10,6 +10,8 @@ public class HalloWelt {
     static int test(int a, int b){
         var c = 0;
         c = a + b;
+        String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+        System.out.println(cars[0]);
         return c;
     }
 }

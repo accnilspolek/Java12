@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Aufgaben220920213 {
@@ -24,7 +25,7 @@ public class Aufgaben220920213 {
         for (int kanidat: stimmen) {
             zäler++;
             if(kanidat>0){
-                System.out.println("Kandidat mit der Nummer :" + zäler + " erhielt " + kanidat + " Stimme(n)");
+                System.out.println("Kandidat mit der Nummer " + zäler + " erhielt " + kanidat + " Stimme(n)");
             }
         }
         System.out.print("Ungültige Stimmen: " + ungültig + "\nAbgegebene Stimmen: " + anzahl);
