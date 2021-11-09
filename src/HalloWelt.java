@@ -12,6 +12,16 @@ public class HalloWelt {
         c = a + b;
         String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
         System.out.println(cars[0]);
+        while(true){
+            System.out.println("Hallo");
+            break;
+        }
+        int day = 1;
+        switch (day){
+            case 1 :
+                System.out.println("Moin meister");
+                break;
+        }
         return c;
     }
 }
