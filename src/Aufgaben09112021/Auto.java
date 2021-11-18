@@ -70,7 +70,7 @@ public class Auto {
         return geschwindichkeit;
     }
 
-    private void setGeschwindichkeit(int geschwindichkeit) {
+    public void setGeschwindichkeit(int geschwindichkeit) {
         this.geschwindichkeit = geschwindichkeit;
     }
     public boolean fahren(int geschwindichkeit){
